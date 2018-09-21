@@ -144,8 +144,11 @@ return (
       } 
       {
         game.status === 'finished' &&
-        <div className = "emoji-animation" >
-          <img src="https://media1.giphy.com/media/OGEbQXwNesZ6U/giphy.gif" alt="emoji-animation"/> 
+        <div>
+          <h1 className="winner-yay">Yay! {users[winner].firstName} has won!</h1>
+          <div className = "emoji-animation" >
+            <img src="https://media.giphy.com/media/xT8qAY7e9If38xkrIY/giphy.gif" alt="emoji-animation"/> 
+          </div>
         </div>
       }
       <audio className = "gameMusic" autoPlay loop controls> 
