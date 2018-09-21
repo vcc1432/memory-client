@@ -15,7 +15,7 @@ import {baseUrl} from './constants'
 
 class App extends Component {
   render() {
-    console.log(`API url: ${baseUrl}`)
+    console.log(`API url is: ${baseUrl}`)
     return (
       <Router>
         <div>
